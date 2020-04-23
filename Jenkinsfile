@@ -3,7 +3,7 @@ pipeline {
     options { disableConcurrentBuilds() }
     environment {
         IMAGE_NAME="make-it-cry-guoyb"
-        PORT="58088"
+        PORT="8088"
         IMAGE_ADDR="127.0.0.1:5000/${IMAGE_NAME}"
         VERSION_ID="${BUILD_ID}"
     }
